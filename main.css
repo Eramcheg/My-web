@@ -1,0 +1,15 @@
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    font-size: 40px;
+}
+.align{
+
+}
+.text1{
+    font-size: 22px;
+    text-decoration-line:underline;
+}
+.text2{
+    font-size: 19px;
+}
