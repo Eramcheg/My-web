@@ -6,6 +6,7 @@
 }
 
 body{
+    background-color: white;
     background: rgb(46,122,182);
     color: #000000;
     background: linear-gradient(90deg, rgba(46,122,182,1) 0%, rgba(93,93,189,1) 35%, rgba(8,211,215,1) 70%, rgba(0,212,255,1) 100%);
@@ -86,21 +87,13 @@ a:link { text-decoration: none; }
 
     color: #fff;
 }
-.below{
-    text-align: right;
-    transform: translateY(-440px);
-
-}
-.table1, th1{
+.table1{
     width: 600px;
 }
 .table1{
     transform: translateY(-395px    );
 }
-.th1{
-    font-size: 30px;
 
-}
 #kl{
 
 }
