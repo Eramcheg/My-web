@@ -1,8 +1,10 @@
 .hyperlinks{
     text-align: center;
     font-size: 30px;
+}
 
-
+.about{
+    text-align: center;
 }
 
 body{
@@ -36,17 +38,16 @@ div a {
 .text2{
     font-size: 19px;
 }
-.textPTL{
-
-    font-size: 17px;
-    margin-left: 200px;
-    transform: translateY(-90%);
+.text2 > p{
+    color: black;
 }
-.table,td,tr,th{
+/*.textPTL{*/
 
-    border: 1px solid;
+/*    font-size: 17px;*/
+/*    margin-left: 200px;*/
+/*    transform: translateY(-90%);*/
+/*}*/
 
-}
 a{
     color: black;
 }
@@ -83,21 +84,31 @@ a:link { text-decoration: none; }
     font-size: 30px;
 }
 .back{
-    background: black;
+    background: #489193;
 
     color: #fff;
 }
 .table1{
-    width: 600px;
+    width: 700px;
 }
 .table1{
-    transform: translateY(-395px    );
+    transform: translateY(-280px    );
 }
 
-#kl{
-
+#TestId .text1{
+    color: black;
 }
 .td1{
-    font-size: 23px;
-    color: white;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    line-height: 60px;
+}
+td{
+
+}
+.h1{
+    font-size: 40px;
+    color: #022821;
 }
