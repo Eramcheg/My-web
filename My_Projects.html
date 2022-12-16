@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My projects</title>
+    <meta content="Illia Salohub" charset="UTF-8">
+    <meta name="author" content="Illia Salohub">
+    <title content="Illia Salohub">My projects</title>
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body class="body">
+<body >
+
 <div class="hyperlinks">
 <a href="index.html">Home</a> |
 <a href="About_me.html">About me</a> |
@@ -15,26 +17,75 @@
      <h1>On this page you can look on some of my projects</h1>
 
  </div>
-<div class="textProjects">
-    I created programs using different languages. I suggest you to look on this programs by yourself in the next table
-    <table class="table">
-        <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
-        </tr>
-        <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-    </table>
+<div class="textProjects" id="Projects">
+    I created programs using different languages. I suggest you to look on this programs by yourself in the next table:
 
+    <table class="table">
+        <caption class="nameTable"><br><b>Work Examples</b></caption>
+        <thead>
+        <tr>
+            <th>Language</th>
+            <th scope="col">Project</th>
+            <th scope="col">Technologies</th>
+            <th colspan="2">Description</th>
+            <th> GitHub</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th rowspan="2" scope="row">Python</th>
+            <td>Description Generator</td>
+            <td>JPT 3, Python 3.10</td>
+            <td>Program that will create<br> a different description<br> based on your request</td>
+            <td>Cannot be used<br> in public</td>
+            <td>  <a href="index.html">Generator</a>  </td>
+
+        </tr>
+        <tr>
+            <td>Game of life</td>
+            <td>PyGame, Tkinter<br> Python 3.10</td>
+            <td>Game of life with<br> a loop field</td>
+            <td>Cannot be used<br> in public</td>
+            <td>  <a href="index.html">Cell machine</a>  </td>
+        </tr>
+        <tr>
+            <th scope="row">Java</th>
+            <td>Advanced ToDo List</td>
+            <td>Java 18, Spring Framework<br> Rest API</td>
+            <td>ToDo list that work <br>
+                on Rest controllers, <br>
+                can save data
+                </td>
+            <td>Can be used<br> in public</td>
+            <td>  <a href="index.html">ToDo list</a>  </td>
+
+        </tr>
+        <tr>
+            <th scope="row">JavaScript</th>
+            <td>Fortune wheel</td>
+            <td>JavaScript, JQuerry<br>
+                HTML 5.0, CSS</td>
+            <td>Fortune wheel for<br>
+            sites that wanna work<br>
+            with prize system</td>
+            <td>Can be used<br> in public</td>
+            <td>  <a href="index.html">Fortune Wheel</a>  </td>
+
+        </tr>
+        <tr>
+            <th>C#</th>
+            <td>RSVP Reader</td>
+            <td>C#, .NET<br>
+            Windows Forms</td>
+            <td>Reader that can<br>
+            teach you to read faster</td>
+            <td>Cannot be used<br>
+            in public</td>
+            <td>  Is not available  </td>
+
+        </tbody>
+    </table>
+    <a class = "Github" href="https://github.com"> GitHub</a>
 </div>
 
 </body>
