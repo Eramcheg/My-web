@@ -6,7 +6,28 @@
 .about{
     text-align: center;
 }
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
 
+
+}
+.tableContacts{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    line-height: 60px;
+    background: #489193;
+    font-size: 25px;
+    width: 600px;
+}
+.informationContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.textOther{
+    font-size: 30px;
+}
 body{
     background-color: white;
     background: rgb(46,122,182);
@@ -83,32 +104,10 @@ a:link { text-decoration: none; }
     text-align: center;
     font-size: 30px;
 }
-.back{
-    background: #489193;
-
-    color: #fff;
-}
-.table1{
-    width: 700px;
-}
-.table1{
-    transform: translateY(-280px    );
-}
 
 #TestId .text1{
     color: black;
 }
-.td1{
-    font-size: 30px;
-    color: black;
-    text-align: right;
-    text-decoration: underline;
-    line-height: 60px;
-}
 td{
 
-}
-.h1{
-    font-size: 40px;
-    color: #022821;
 }
